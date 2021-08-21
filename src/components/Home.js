@@ -32,13 +32,13 @@ class Home extends Component {
                     <Navbar className="bar" bg="light" variant="light">
                         <Navbar.Brand href="/">Home</Navbar.Brand>
                         {/*<Nav.Link href="/popular">Popular</Nav.Link>*/}
-                        <Nav.Link href="/ingredients">Ingredients</Nav.Link>
+                        {/* <Nav.Link href="/ingredients">Ingredients</Nav.Link> */}
                         <Nav.Link href="/recipes">Recipes</Nav.Link>
-                        <Nav.Link href="/blogs">Blogs</Nav.Link>
+                        {/* <Nav.Link href="/blogs">Blogs</Nav.Link> */}
                     </Navbar>
                 </div>
 
-                <div className="nav-box-container">
+                {/* <div className="nav-box-container">
                     <div className="nav-box">
                         <h1 className="nav-desc"> Breakfast</h1>
                         <Image className="nav-imag" src="../images/breakfast.jpg"  />
@@ -66,7 +66,7 @@ class Home extends Component {
                             </Button>
                         </Link>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         );

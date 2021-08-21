@@ -148,9 +148,9 @@ const Recipe = (props) => {
             <div className="manuel-navbar">
                 <Navbar className="bar" bg="light" variant="light">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/ingredients">Ingredients</Nav.Link>
+                    {/* <Nav.Link href="/ingredients">Ingredients</Nav.Link> */}
                     <Navbar.Brand href="/recipes">Recipes</Navbar.Brand>
-                    <Nav.Link href="/blogs">Blogs</Nav.Link>
+                    {/* <Nav.Link href="/blogs">Blogs</Nav.Link> */}
 
                     <Nav className="mr-auto">
                         <Form inline>

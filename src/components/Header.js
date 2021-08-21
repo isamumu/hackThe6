@@ -84,7 +84,7 @@ class Header extends React.Component {
         return (
             <div className="app-header">
                 <Link to="/" className="logo">
-                    &#9927; Cook with Me!
+                    FoodieList
                 </Link>
                 <div className="DropDown">
                     <Dropdown>
